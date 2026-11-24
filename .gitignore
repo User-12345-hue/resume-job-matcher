@@ -31,3 +31,11 @@ Thumbs.db
 
 # Environment
 .env
+# API keys and secrets
+.streamlit/secrets.toml
+secrets.toml
+
+# Local database and backups
+*.db
+app_before*.py
+backup_before_features_*/
